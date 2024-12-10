@@ -1,7 +1,7 @@
 # Astron
 Astron is a 2D video game inspired by Asteroids and Geometry Wars. Created in 2020 with Unity 2020.3.7f1 and C#.
 
-[Astron on Itch.io](https://aaroncanoc.itch.io/astron)
+[Download Astron on Itch.io](https://aaroncanoc.itch.io/astron)
 
 [Youtube video | Example](https://www.youtube.com/watch?v=Z-d9j_P8Eg4)
 
