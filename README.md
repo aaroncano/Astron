@@ -38,4 +38,4 @@ The game ends when the player loses all lives. If the player's score qualifies f
 ![imagen](https://github.com/user-attachments/assets/37742c9c-22cd-43f1-9691-0178f269f9e6)
 
 ## Credits
-- Aarón Cano: Code, UI, Sprites, Sounds, and Animations
+- Aarón Cano: Design, Code, UI, Sprites, Sounds, and Animations
