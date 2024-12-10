@@ -5,6 +5,7 @@ Astron is a 2D video game inspired by Asteroids and Geometry Wars. Created in 20
 
 [Youtube video | Example](https://www.youtube.com/watch?v=Z-d9j_P8Eg4)
 
+## Project Structure
 The project follows a common structure for Unity video games, with folders organized by assets and their categories. It includes folders for sprites, prefabs, behavior scripts, UI, sound, and other elements like audio mixers or particle effects. The game's logic and functionality are divided across various specialized scripts, with file names indicating their purpose. The scripts commonly utilize design patterns such as Singleton and inheritance. Additionally, attribute variations are handled through ranges to dynamically adjust properties within the game.
 
 ## Gameplay
