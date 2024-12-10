@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2459585416034123759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2459585416034123753}
+  - component: {fileID: 2459585416034123758}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2459585416034123753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459585416034123759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2459585416034123758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459585416034123759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f504f010ef24847a3347dfd681b308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Name: PlayerShot
+    Clip: {fileID: 8300000, guid: 95a9edd47332f66449a8d33b92fff5a6, type: 3}
+    Volume: 0.2
+    pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerExplosion
+    Clip: {fileID: 8300000, guid: ef52f582d99d80548a70d365cfc22c55, type: 3}
+    Volume: 0.4
+    pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: EnemyDead
+    Clip: {fileID: 8300000, guid: ca20258dcccbbe448958046dce9e2592, type: 3}
+    Volume: 0.12
+    pitch: 0.7
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: UpgradeTaken
+    Clip: {fileID: 8300000, guid: 57bb0fbebe33f59438e49529e66b0388, type: 3}
+    Volume: 0.4
+    pitch: 1.1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: WeaponTaken
+    Clip: {fileID: 8300000, guid: e748fe18aac004547aa26d3e3d1903ca, type: 3}
+    Volume: 0.4
+    pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: LiveTaken
+    Clip: {fileID: 8300000, guid: 2aec6e87aeb55f74dbeb56c5a7647152, type: 3}
+    Volume: 0.4
+    pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: BombTaken
+    Clip: {fileID: 8300000, guid: eae149216c1e08545a33cd7b0cbcacee, type: 3}
+    Volume: 0.4
+    pitch: 0.5
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: EnemyShotSquare
+    Clip: {fileID: 8300000, guid: d3e797a6d04c0c1489d0b512e30b084a, type: 3}
+    Volume: 0.15
+    pitch: 0.8
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: EnemyShotDiamond
+    Clip: {fileID: 8300000, guid: 7288cfaca75e35d4898b291962a50d41, type: 3}
+    Volume: 0.15
+    pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Bomb
+    Clip: {fileID: 8300000, guid: 7bbfd93c179115d44aacbc83e6046b1e, type: 3}
+    Volume: 0.4
+    pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Wave
+    Clip: {fileID: 8300000, guid: b13d6f21d0c05a342959fc95c7166cbd, type: 3}
+    Volume: 0.4
+    pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Select
+    Clip: {fileID: 8300000, guid: 53296b559e4267b43beab8f82915f860, type: 3}
+    Volume: 0.06
+    pitch: 0.8
+    Loop: 0
+    Source: {fileID: 0}
